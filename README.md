@@ -104,5 +104,7 @@ The project will span 3-4 weeks with the following phases and tasks:
 -	Deployment Lead: gets the dashboard live on shinyapps.io or a similar platform. Coordinates the feedback round in week four and manages final revisions.
 
 
-# Datasets (EDIT NEEDED)
+# Datasets
+
+Datasets available in the archived zip folder. The exact description to be updated.
 
