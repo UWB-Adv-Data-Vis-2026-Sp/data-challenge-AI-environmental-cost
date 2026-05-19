@@ -1,0 +1,69 @@
+---
+title: 'UW Bothell Spring 2025 BIS 412A PROJECT TEAM: CHANGE THIS TO YOUR TEAM NAME'
+author: 'UW Bothell Spring 2025 BIS 412A STUDENTS: CHANGE THIS TO YOUR NAMES'
+date: "2025-05-21"
+output: html_document
+---
+
+
+# Data Visualization Challenge "Powering the Future: Visualizing Electric Vehicle Trends in Washington State": Dashboard Report
+
+This is the data dashboard challenge for the Spring 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell. The challenge explores electric vehicle data from Washington State to visualizethe spread and growth of electric vehicle adoption across Washington State.
+
+
+## Overview
+
+The current dashboard for the data visualization challenge project has been created by Team INSERT_TEAM_NAME_HERE, that consists of the following students:
+
+- ~~Leonardo~~: 1st STUDENT FIRSTNAME LASTNAME 
+
+- ~~Raphael~~: 2nd STUDENT FIRSTNAME LASTNAME
+
+- ~~Michelangelo~~: 3rd STUDENT FIRSTNAME LASTNAME
+
+- ~~Donatello~~: 4th STUDENT FIRSTNAME LASTNAME
+
+
+## Dashboard Description
+
+Out dashboard consists of 4 visualization charts. Here is the short description of each of these charts:
+
+CHART 1: DESCRIPTION HERE. This chart has been primarily created by Leonardo.
+
+CHART 2: DESCRIPTION HERE. This chart has been primarily created by Raphael.
+
+CHART 3: DESCRIPTION HERE. This chart has been primarily created by Michelangelo.
+
+CHART 4: DESCRIPTION HERE. This chart has been primarily created by Donatello.
+
+
+## Team Roles
+
+When creating the dashboard we divided our roles and responsibilities in the following way:
+
+Leonardo - Project Manager: Oversees the timeline, coordinates team activities, and ensures objectives are met.
+
+Raphael - Data Analyst/Engineer: Handles data cleaning, analysis, and interpretation.
+
+Michelangelo - UX/UI Designer: Designs the dashboard interface for optimal user experience.
+
+Donatello - Visualization Specialist: Supports static and interactive visualizations.
+
+*Edit this according to how you divided the work in your team, you can edit the roles list, delete some and add another roles.*
+
+
+## Documentation of the Statistical Analysis
+
+Fill in the section
+
+
+## Summary of Key Achievements and Main Challenges
+
+Fill in the section
+
+
+# References List
+
+Provide citations (following APA format) on data sources and any literature used.
+
+
