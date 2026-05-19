@@ -1,14 +1,14 @@
 ---
-title: 'UW Bothell Spring 2025 BIS 412A PROJECT TEAM: CHANGE THIS TO YOUR TEAM NAME'
-author: 'UW Bothell Spring 2025 BIS 412A STUDENTS: CHANGE THIS TO YOUR NAMES'
-date: "2025-05-21"
+title: 'UW Bothell Spring 2026 BDATA 412 PROJECT TEAM: CHANGE THIS TO YOUR TEAM NAME'
+author: 'UW Bothell Spring 2026 BDATA 412 STUDENTS: CHANGE THIS TO YOUR NAMES'
+date: "2026-05-19"
 output: html_document
 ---
 
 
-# Data Visualization Challenge "Powering the Future: Visualizing Electric Vehicle Trends in Washington State": Dashboard Report
+# Data Visualization Challenge "Beyond the Algorithm: Visualizing the Environmental Cost of AI": Dashboard Report
 
-This is the data dashboard challenge for the Spring 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell. The challenge explores electric vehicle data from Washington State to visualizethe spread and growth of electric vehicle adoption across Washington State.
+This is the data dashboard challenge for the Spring 2026 BDATA 412 Advanced Data Visualization course at the University of Washington Bothell. The challenge explores the environmental impact of artificial intelligence tools in the various dimensions (energy, heat, water).
 
 
 ## Overview
@@ -41,14 +41,13 @@ CHART 4: DESCRIPTION HERE. This chart has been primarily created by Donatello.
 
 When creating the dashboard we divided our roles and responsibilities in the following way:
 
-Leonardo - Project Manager: Oversees the timeline, coordinates team activities, and ensures objectives are met.
+Leonardo - Data Wrangler: downloads and cleans the datasets. Main job is getting the EIA and Our World in Data files into a format R can actually work with -- standardizing units, handling gaps, joining tables. Also responsible for documenting what was changed and why.
 
-Raphael - Data Analyst/Engineer: Handles data cleaning, analysis, and interpretation.
+Raphael - Visualization Lead: owns the ggplot code. Handles the main chart designs, picks colors and themes, and makes sure the visuals are actually readable by someone who didn't build them.
 
-Michelangelo - UX/UI Designer: Designs the dashboard interface for optimal user experience.
+Michelangelo - Writer/Analyst: writes the contextual text that sits alongside the visuals. Explains what the data shows, flags limitations, and handles citation formatting for the references page.
 
-Donatello - Visualization Specialist: Supports static and interactive visualizations.
-
+Donatello - Deployment Lead: gets the dashboard live on shinyapps.io or a similar platform. Coordinates the feedback round in week four and manages final revisions.
 *Edit this according to how you divided the work in your team, you can edit the roles list, delete some and add another roles.*
 
 
@@ -65,5 +64,3 @@ Fill in the section
 # References List
 
 Provide citations (following APA format) on data sources and any literature used.
-
-
