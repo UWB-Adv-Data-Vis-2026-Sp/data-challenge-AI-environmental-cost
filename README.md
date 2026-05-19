@@ -1,35 +1,47 @@
-# Data Visualization Challenge "Powering the Future: Visualizing Electric Vehicle Trends in Washington State"
+# Data Visualization Challenge "Beyond the Algorithm: Visualizing the Environmental Cost of AI"
 
-This is the data dashboard challenge for the Spring 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell. The challenge explores electric vehicle data from Washington State to visualizethe spread and growth of electric vehicle adoption across Washington State.
+This is the data dashboard challenge for the Spring 2026 BDATA 412 Advanced Data Visualization course at the University of Washington Bothell. The challenge explores the environmental impact of artificial intelligence tools in the various dimensions (energy, heat, water).
 
 
 # Overview
 
-Challenge created by and made for the Spring 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
+Challenge created by and made for the Spring 2026 BDATA 412 Advanced Data Visualization course at the University of Washington Bothell.
 
-- 📊 Challenge created by and made for the Spring 2025 BIS 412 Advanced Data Visualization course at the University of Washington Bothell.
-- ✍️ Authored by Team "Cool Name":
-    - Amrit Kaur [@amrit-29](https://github.com/amrit-29)
-    - Axel Madsen [@axemadsen](https://github.com/axemadsen)
-    - Gabriela Marroquin [@gabsml48](https://github.com/gabsml48)
+- 📊 Challenge created by and made for the Spring 2026 BDATA 412 Advanced Data Visualization course at the University of Washington Bothell.
+- ✍️ Authored by Team 1:
+    - Dhanshika Vijayaraj [@dhanshika-v](https://github.com/dhanshika-v)
+    - Sumit Patel [@SumitUW](https://github.com/SumitUW)
+    - Ethan Morris [@EthanMors](https://github.com/EthanMors)
 - 🛠️ Edited and supervised by Prof. Gani Nurmukhametov [@gani-nurmukhametov](https://github.com/gani-nurmukhametov)
 
 
-# Description
+# Description: From Team 1's proposal
 
-The central challenge this dashboard seeks to address is: How can data-driven visualizations help us understand the spread and growth of electric vehicle adoption across Washington State?
-As the state pursues ambitious environmental goals, such as reducing greenhouse gas emissions and transitioning to clean energy transportation, understanding where and how electric vehicles are adopted is essential. This dashboard aims to transform raw registration data into accessible, interactive insights that support strategic decisions in policy, business, infrastructure, and research.
-The purpose of this dashboard is twofold: to inform and to explore. For stakeholders such as policymakers, transportation planners, and advocacy groups, it provides clear visuals that summarize EV distribution trends and give insights on growth trajectories. For researchers, businesses, and community members, it offers tools for exploring the data through simpler visualizations.
-The resulting data visualization dashboard’s goal is to inform and empower multiple stakeholder groups. Transportation departments can use insights to prioritize infrastructure deployment, such as new charging stations in underserved areas. Researchers can apply the findings to measure the effectiveness of policy interventions, while clean energy advocates can use the visual narratives to communicate progress and identify equity concerns in green technology adoption.
+Every time someone uses an AI tool, there's a physical cost most people don't think about. Running a large language model requires electricity, and cooling the servers that power it requires water. At small scale that's not a big deal, but AI has scaled up fast. This dashboard challenge asks teams to visualize the environmental footprint of AI and data centers across three dimensions: energy consumption, water usage, and carbon emissions. The goal is to make something usually abstract and technical feel concrete and understandable. The central question driving this challenge: how big is AI's environmental impact, and how does it compare to things we already have a sense of scale for?
+
+This is primarily an informational and analytical dashboard. The data should tell a story, but users should also be able to explore it on their own and form their own conclusions. A few questions that shape the intent:
+- Why does this matter? Because data centers are being built right now at a record pace, and the public rarely gets a clear picture of what that means environmentally.
+- Is there a claim worth investigating? Some argue AI companies are overstating their sustainability commitments while underreporting actual consumption. The data can help test that.
+- Are there trends to show? Yes. Energy use from data centers has been climbing steadily, and projections suggest the growth is accelerating as AI workloads increase.
+- Do we want one interpretation or many? Multiple. The data is genuinely uncertain in places, and the dashboard should reflect that rather than hide it.
+
+The most realistic audience for a class dashboard is curious students and instructors who want to engage with a current policy debate backed by real data. Beyond that, this type of visualization would be useful for environmental policy researchers, journalists covering tech and climate, and people inside tech companies who work on sustainability reporting. Anyone trying to evaluate whether AI companies' green pledges hold up against their actual resource use would find value in it.
+
+Teams working on this challenge should try to address the following through their visualizations:
+- How has data center energy consumption changed over time in the U.S. and globally?
+- How does AI's electricity use compare to other energy-intensive industries like steel, aluminum, and aviation?
+- How much water do data centers use for cooling, and how does that vary by region?
+- What are the estimated carbon emissions tied to AI workloads, and how do they compare to other familiar sources?
+- How much transparency do major tech companies actually provide in their sustainability reports, and do the numbers add up?
 
 
 # Challenge
 
-Create a dashboard that examines the various aspects of electric vehicle (EV) adoption across Washington State. As such, the dashboard should include the following 4 data visualization charts:
-- Chart that analyzes the most common patterns in the overall population of EVs in Washington State: the most popular makes & models, the share of the EVs of different types (Battery EVs vs Plug-in Hybrid EVs), the distribution of production years of EVs etc.
-- Chart that analyzes the time series aspect of EV adoption in Washington State, either aggregated at the state level or disaggregated at the county level: the change (increase) in number of EVs across time, both in absolute levels and in percentages relative to the previous time period (month/quarter/year).
-- Chart that analyzes the geographical aspect of EV adoption in Washington State: comparative analysis of the counties with highest and lowest numbers of EVs, both in absolute levels and as a share of EVs in total vehicles. Extra challenge: use geospatial data infrastructure to make this chart even more visually appealing by plotting your findings on a map of Washington State.
-- Chart that is uniquely developed by each team independently. Feel free to search for another datasets publicly available for Washington State to use it when creating this uniquely determined chart.
+Create a dashboard that examines the various aspects of the environmental impact of artificial intelligence tools. As such, the dashboard should include the following 4 data visualization charts:
+- Chart that analyzes the time series aspect of increasing AI tools usage in the past decade (subject to the data available), either aggregated at the country level using the world data or disaggregated at the state level of the United States across time, both in absolute levels and in percentages relative to the previous time period (month/quarter/year). Proposed variables: energy usage, water usage, increased carbon emissions etc.
+- Chart that compares the environmental impact of data centers against the impact of traditional industries like steel manufacturing, aviation, oil and petrochemistry etc.
+- Chart that examines the geographical aspect of increasing AI tools usage in the past decade, either aggregated at the country level using the world data or disaggregated at the state level of the United States. Extra challenge: use geospatial data infrastructure to make this chart even more visually appealing by plotting your findings on either the world map or the U.S. map.
+- Chart that is uniquely developed by each team independently. Feel free to augment your research project with another publicly available datasets when creating this uniquely determined chart.
 
 In addition to the 4 charts listed above, the dashboard should also include an "About" section that mentions the name of the challenge, names of the dashboard creators (team name and students' names), and the hyperlink to the team GitHub repository of the dashboard. The team is required to complete the Dashboard Report .Rmd file that is provided in the repository with the information relevant to the team's dashboard: 
 - documentation of the statistical analysis performed by team
@@ -44,54 +56,53 @@ After you complete this Dashboard Report R Markdown file, knit it as .html file,
 
 The project will span 3-4 weeks with the following phases and tasks:
 
-1. Data Exploration & Design Ideation
--	Data Import
-  -	Import the Electric Vehicle Population Data from the Washgington State
-  - Clean the pre-processing of the data
-- Initial Sketch
-  - Define project scope and objectives
-  - Brainstorm and sketch initial dashboard layouts
-- Meetings:
-  -	Discuss roles and responsibilities and set communication channels among team members.
-2. Data Analysis and Design
-  -	Perform exploratory data analysis
-  -	Identify key metrics and trends
-  -	Determine which visualizations best address the purpose
-3. Dashboard Build & Development
-  - Integrate the refined visualizations into an interactive dashboard framework. 
-  - Develop interactive filtering and drill-down capabilities.
-  - User Interface & Aesthetics:
-  - Focus on the dashboard's overall layout, color schemes, and responsiveness.
-  - Incorporate the sidebar with filtering options and a dynamic header.     
-4. Testing, Feedback, and Deployment
-- Conduct usability testing and gather feedback:
-    - Share the dashboard with a small group of target users (stakeholders, peers) to collect feedback on usability and insights.
-    - Identify and fix any bugs or usability issues.
-- Final Adjustments & Deployment:
-    - Finalize the dashboard design, ensuring all visualizations and interactive elements work as intended.
-    - Deploy the dashboard on a hosting platform and ensure the live data connection functions.
-- Documentation & Final Presentation:
-    - Document the design process, coding decisions, and any challenges faced.
-    - Prepare a final presentation outlining the project’s insights and outcomes.
+1. Design
+- Tasks
+  -	Download EIA CSV and Our World in Data energy files.
+  -	Look through the Kaggle data center dataset to see what columns are actually usable.
+  -	Sketch two or three dashboard layout ideas.
+  -	Assign roles.
+  -	Do a first pass at loading data into R and checking for problems.
+- Deliverables
+  - Sketches
+  - Data loaded in R
+2. Prototype
+- Tasks
+  -	Clean and reshape data:
+      - standardize units (convert everything to TWh),
+      - handle missing years,
+      - join datasets where needed.
+   - Build a first draft line chart of U.S. and global data center energy use over time.
+   - Make a rough summary table.
+- Deliverables
+  - Working rough visualization.
+3. Build
+- Tasks
+  -	Refine the line chart.
+  -	Add a second visual comparing AI energy or water use to other industries.
+  -	Add explanatory text and source notes.
+  -	Start thinking about how the dashboard layout reads as a whole.
+- Deliverables
+  - Near-final dashboard draft. 
+4. Deploy
+- Tasks
+  -	Share with a few classmates for feedback.
+  -	Revise based on what they find confusing.
+  -	Polish labels, color, and theme.
+  -	Host on shinyapps.io.
+  -	Final check on all citations and data source notes.
+- Deliverables
+  - Live hosted dashboard. 
 
 
 # Possible Team Roles
 
 -	Everyone: Develops one original graphic data visualization
--	Project Manager: Oversees the timeline, coordinates team activities, and ensures objectives are met.
--	Data Analyst/Engineer: Handles data cleaning, analysis, and interpretation.
--	UX/UI Designer: Designs the dashboard interface for optimal user experience.
--	Visualization Specialist: Supports static and interactive visualizations.
+-	Data Wrangler: downloads and cleans the datasets. Main job is getting the EIA and Our World in Data files into a format R can actually work with -- standardizing units, handling gaps, joining tables. Also responsible for documenting what was changed and why.
+-	Visualization Lead: owns the ggplot code. Handles the main chart designs, picks colors and themes, and makes sure the visuals are actually readable by someone who didn't build them.
+-	Writer/Analyst: writes the contextual text that sits alongside the visuals. Explains what the data shows, flags limitations, and handles citation formatting for the references page.
+-	Deployment Lead: gets the dashboard live on shinyapps.io or a similar platform. Coordinates the feedback round in week four and manages final revisions.
 
 
-# Datasets
+# Datasets (EDIT NEEDED)
 
-All the datasets are obtained from Data.Gov portal, [the home of the U.S. Government's Open Data](https://data.gov/), searching for key word "electric and applying filter for Washington state. [This search](https://catalog.data.gov/organization/state-of-washington?q=electric) resulted in five found datasets, and I have included three of them for your perusal:
-
-1. [Electric Vehichle Population Data](https://catalog.data.gov/dataset/electric-vehicle-population-data): This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing.
-2. [Electric Vehichle Population Size History](https://catalog.data.gov/dataset/electric-vehicle-population-size-history): This dataset shows the number of electric vehicles that were registered by Washington State Department of Licensing each month. The data is separated by county for passenger vehicles and trucks.
-3. [Electric Vehichle Population Size History by County](https://catalog.data.gov/dataset/electric-vehicle-population-size-history-by-county): This dataset shows the number of electric vehicles that were registered by Washington State Department of Licensing each month disaggregated on a country level. The data is separated by county for passenger vehicles and trucks. The original dataset includes other U.S. states as well, for your convience, I created a separate subset of this dataset including only the data for Washington state counties. 
-
-The data for all three datasets has been updated on May 17, 2025, so it is very up-to-date. The size of the first dataset exceeds the allowed limit for the files stored at UW GitHub repositories (25 Megabytes), so I created a zip archive with these four .csv spreadsheets.
-
-I expect you to use each of these three datasets when creating different charts, so you will need to provide a correct citation for the datasets you used in your Dashboard Report R Markdown file. 
